@@ -1,9 +1,10 @@
 #Book Scraper
 
 Scrape the web to get infos about books. 
-This webapp has been planned and implement to get published books informations not yet available on Google Books APIs.
+This webapp has been planned and implemented to get published books informations not yet available on Google Books APIs.
 
-Built on top of Muffin Framework, it exposes just one endpoint to retrieve info about a specific ISBN. 
+Built on top of Muffin Framework, it exposes just one endpoint to retrieve info about a specific book, identified by its own ISBN. 
+It uses the new *asyncio* module to retrieve infos by two (for now) providers.
 
 ##Run locally
 
